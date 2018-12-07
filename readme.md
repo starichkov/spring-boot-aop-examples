@@ -8,4 +8,6 @@ http://localhost:8080/swagger-ui.html
 ```
 Post some test object, and see the logs.
 
-Also added `@Around` aspect to log execution time of the method. Use `PUT` endpoint from Swagger UI to test it.
+Also added configurable by property `@Around` aspect to log execution time of the method.
+
+Use `PUT` endpoint from Swagger UI to test it.
