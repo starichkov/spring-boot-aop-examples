@@ -26,7 +26,8 @@ public class ExecutionTimeAspect {
 
         LocalDateTime executionFinished = LocalDateTime.now();
 
-        log.info("Method executed in {} ms",
+        log.info("Method '{}' executed in {} ms",
+                joinPoint.getSignature().toShortString(),
                 ChronoUnit.MILLIS.between(executionStarted, executionFinished));
 
         return result;
