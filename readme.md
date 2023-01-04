@@ -6,7 +6,7 @@ Spring Boot AOP examples
 | Piece of tech | Version |
 |---------------|---------|
 | Java          | 17      |
-| Spring Boot   | 2.6.x   |
+| Spring Boot   | 2.7.x   |
 | Spring        | 5.3.x   |
 
 ## Testing
@@ -16,7 +16,7 @@ Two examples of how to log some method's parameter using aspects - before and af
 Use SwaggerUI for testing these aspects:
 
 ```
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui/index.html
 ```
 
 Post some test object, and see the logs.
