@@ -5,9 +5,9 @@ Spring Boot AOP examples
 
 | Piece of tech | Version |
 |---------------|---------|
-| Java          | 17      |
-| Spring Boot   | 2.7.x   |
-| Spring        | 5.3.x   |
+| Java          | 21      |
+| Spring Boot   | 3.4.x   |
+| Spring        | 6.2.x   |
 
 ## Testing
 
@@ -19,7 +19,7 @@ Use SwaggerUI for testing these aspects:
 http://localhost:8080/swagger-ui/index.html
 ```
 
-Post some test object, and see the logs.
+Post some test objects and see the logs.
 
 Also added configurable by property `@Around` aspect to log execution time of the method.
 
